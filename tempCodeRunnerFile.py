@@ -1,0 +1,1 @@
+norm.append({"title": title, "bullets": bullets, "notes": notes})
