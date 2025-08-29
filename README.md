@@ -6,7 +6,7 @@ A small, practical Python utility that builds a clean, presentation-ready PowerP
 
 ---
 
-## Features (each explained)
+## Features 
 
 ### 1. Topic-driven slide generation
 
@@ -63,7 +63,7 @@ Install the packages with pip:
 pip install -U ddgs python-pptx openai tiktoken tenacity
 ```
 
-**Primary packages explained (1–2 lines each):**
+**Primary packages explained:**
 
 * `ddgs` — lightweight DuckDuckGo search wrapper used to fetch recent web snippets without requiring API keys.
 * `openai` — official OpenAI Python client used to call chat completions and request JSON-formatted content.
@@ -103,7 +103,7 @@ python auto_slide_deck.py --topic "AI Ethics" --no-web
 
 ---
 
-## Internals & Code Structure (short)
+## Internals & Code Structure 
 
 * `get_web_results()` — queries DuckDuckGo and builds a compact context trimmed to a max size to control token cost.
 * `format_user_prompt()` — builds the user prompt for the LLM, embedding the web context and the required slide schema.
